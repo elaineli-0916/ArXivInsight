@@ -1,0 +1,46 @@
+# Secrets / API keys — never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local data / caches (adjust if you want to track small datasets)
+*.sqlite
+*.db
+
+# R
+.Rhistory
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Keys (SSH deploy tokens etc.)
+*.pem
+id_rsa
+id_rsa.pub
+*.ppk
+
+# Course / assignment artifacts (local naming)
+STAT7008A*

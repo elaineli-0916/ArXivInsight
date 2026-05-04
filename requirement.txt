@@ -1,0 +1,14 @@
+numpy
+pandas
+sentence-transformers
+scikit-learn
+matplotlib
+plotly
+streamlit
+torch
+openai
+python-dotenv
+requests
+beautifulsoup4
+streamlit-echarts
+openpyxl
